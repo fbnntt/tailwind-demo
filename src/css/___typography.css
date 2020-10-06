@@ -1,0 +1,30 @@
+* {
+  font-variant-ligatures: none;
+  -webkit-font-feature-settings:"liga" 0;
+  font-feature-settings:"liga" 0;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering:optimizeLegibility;
+}
+
+@font-face {
+  font-family: '';
+  src: url('../fonts/'),
+       url('../fonts/'),
+       url('../fonts/'),
+       url('../fonts/'),
+       url('../fonts/');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+ 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* DO NOT SET FONT-FAMILY ON <BODY> AS IT WON'T WORK DUE TO <BODY> TAG ALREADY IN EXTRAS.CSS */

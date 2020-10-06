@@ -1,0 +1,59 @@
+{
+  "name": "starter-static",
+  "version": "1.0.0",
+  "description": "Starter kit for static builds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://fbnntt@github.com/fbnntt/start-static.git"
+  },
+  "author": "Fi Bennett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fbnntt/start-static/issues"
+  },
+  "paths": {
+    "src": {
+      "css": "./src/css/",
+      "js": "./src/js/",
+      "img": "./src/img/"
+    },
+    "dist": {
+      "base": "./",
+      "css": "./css/",
+      "js": "./js/"
+    },
+    "templates": "./"
+  },
+  "globs": {
+    "purgecss": [
+      "./index.html"
+    ],
+    "purgecssWhitelist": [],
+    "critical": []
+  },
+  "homepage": "https://github.com/fbnntt/start-static#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "autoprefixer": "^9.4.5",
+    "fancy-log": "^1.3.3",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0-beta.2",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^4.0.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-uglify": "^3.0.1",
+    "postcss-preset-env": "^6.5.0",
+    "purgecss": "^3.0.0"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.8.10"
+  }
+}
