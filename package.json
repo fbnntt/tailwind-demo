@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/fbnntt/tailwind-demo#readme",
   "dependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
     "autoprefixer": "^9.6.1",
     "postcss-cli": "^6.1.2",
     "tailwindcss": "^1.0.4"
