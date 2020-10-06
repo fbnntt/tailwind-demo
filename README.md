@@ -1,3 +1,3 @@
-# starter-static
+# TailwindCSS demo
 
-Starter files for a static site.
+Following along at: https://tailwindcss.com/course
